@@ -1,5 +1,7 @@
 <html>
-<!-- npx serve  # this -->
+<!--
+npx serve  # this
+-->
 <body>
 <style>
 @font-face {
@@ -8,9 +10,15 @@
 }
 body{
     font-family: Vollkorn;
-    font-variant: lining-nums;
 }
 </style>
-<h1>test 1234567890</h1>
+<h1 style="font-feature-settings: 'lnum', 'pnum';"> Proportional Lining 1234567890 </h1>
+<code>font-feature-settings: 'lnum', 'pnum';</code>
+<h1 style="font-feature-settings: 'zero', 'lnum', 'pnum';"> Proportional Lining 1234567890 </h1>
+<code>font-feature-settings: 'zero', 'lnum', 'pnum';</code>
+<h1 style="font-feature-settings: 'lnum', 'tnum';"> Tabular Lining 1234567890</h1>
+<code>font-feature-settings: 'lnum', 'pnum';</code>
+<h1 style="font-feature-settings: 'zero', 'lnum', 'tnum';"> Tabular Lining 1234567890 </h1>
+<code>font-feature-settings: 'zero', 'lnum', 'tnum';</code>
 </body>
 </html>

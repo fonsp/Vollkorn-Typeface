@@ -11,6 +11,10 @@ npx serve  # this
 body{
     font-family: Vollkorn;
 }
+h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
 </style>
 <h1 style="font-feature-settings: unset;"> 1234567890 Default </h1>
 <h1 style="font-feature-settings: unset;"> 0987654321 Default </h1>
@@ -23,7 +27,7 @@ body{
 <code>font-feature-settings: 'zero', 'lnum', 'pnum';</code>
 <h1 style="font-feature-settings: 'lnum', 'tnum';"> 1234567890 Tabular Lining </h1>
 <h1 style="font-feature-settings: 'lnum', 'tnum';"> 0987654321 Tabular Lining </h1>
-<code>font-feature-settings: 'lnum', 'pnum';</code>
+<code>font-feature-settings: 'lnum', 'tnum';</code>
 <h1 style="font-feature-settings: 'zero', 'lnum', 'tnum';"> 1234567890 Tabular Lining </h1>
 <h1 style="font-feature-settings: 'zero', 'lnum', 'tnum';"> 0987654321 Tabular Lining </h1>
 <code>font-feature-settings: 'zero', 'lnum', 'tnum';</code>
